@@ -1,0 +1,9 @@
+.cartTop{
+    box-shadow: 2px 2px 5px gray;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+}
+.cartTop:hover{
+    box-shadow: 2px 2px 7px lightblue;
+}
