@@ -10,16 +10,18 @@ box-shadow: 0 0 5px 5px rgba(173, 216, 230, 0.452);
 }
 .navTitle span{
     color: rgb(6, 137, 252);
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
 }
 .navLink{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     margin-left: 30px;
     color: rgb(99, 99, 99) !important;
     text-align: center;
     transition: .5s ease-in-out !important;
+    font-family: 'Roboto', sans-serif;
 }
 .navLink:hover{
     color: white !important;
