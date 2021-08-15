@@ -15,27 +15,22 @@ import ProductDetails from './components/ProductDetails/ProductDetails';
 function App() {
   return (
     <div>
+      <Header></Header>
       <Router>
-
         <Switch>
           <Route path="/shop">
-            <Header></Header>
             <Shop></Shop>
           </Route>
           <Route path="/review">
-            <Header></Header>
             <Review></Review>
           </Route>
           <Route path="/inventory">
-            <Header></Header>
             <Inventory></Inventory>
           </Route>
           <Route exact path="/">
-            <Header></Header>
             <Shop></Shop>
           </Route>
           <Route path="/product/:productKey">
-            <Header></Header>
             <ProductDetails></ProductDetails>
           </Route>
           <Route path="/*">
