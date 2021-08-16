@@ -3,3 +3,23 @@
      display: none;
  }
  }
+ 
+ .smallBtnLink{
+    background:rgb(19, 219, 186);
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: 2px solid lightblue;
+    padding: 4px 10px 4px 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(99, 99, 99);
+    transition: .5s ease-in-out;
+
+}
+.smallBtnLink:hover{
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    background-color: white;
+   
+}

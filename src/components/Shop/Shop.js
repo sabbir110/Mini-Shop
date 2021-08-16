@@ -36,7 +36,7 @@ const Shop = () => {
                 </Col>
             </Row>
             <div className="fixed-bottom text-end smallBtn m-3 ">
-                <Link to="/review"><button className="mainButton  h6 rounded-circle  p-2 ">Review <br /> Order</button></Link>
+                <Link to="/review"><button className="smallBtnLink  ">Review <br /> Order</button></Link>
             </div>
         </Container>
     );
