@@ -22,7 +22,7 @@ const Shop = () => {
     return (
         <Container fluid className="ShopContainer">
             <Row >
-                <Col lg={9} md={9} sm={9} className="productContainer">
+                <Col lg={9} md={8} sm={12} className="productContainer">
                     {product.map(pd => <Product
                         key={pd.key}
                         product={pd}
@@ -30,7 +30,7 @@ const Shop = () => {
                     ></Product>)}
                 </Col>
 
-                <Col lg={3} md={3} sm={3} >
+                <Col lg={3} md={4}  >
                     <Cart cart={cart}></Cart>
 
                 </Col>

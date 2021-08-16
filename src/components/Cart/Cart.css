@@ -5,7 +5,7 @@
     transition: .5s ease-in-out;
     display: block;
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
    .cartTop{
        display: none;
    } 
