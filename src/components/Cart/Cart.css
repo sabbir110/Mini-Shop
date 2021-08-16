@@ -3,6 +3,12 @@
     padding: 5px;
     border-radius: 5px;
     transition: .5s ease-in-out;
+    display: block;
+}
+@media (max-width: 576px) {
+   .cartTop{
+       display: none;
+   } 
 }
 .cartTop:hover{
     box-shadow: 2px 2px 7px lightblue;
