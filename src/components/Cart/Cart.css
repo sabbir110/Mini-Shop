@@ -1,15 +1,15 @@
 .cartTop{
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 2px 2px 5px lightblue;
     padding: 5px;
     border-radius: 5px;
     transition: .5s ease-in-out;
     display: block;
 }
-@media (max-width: 575px) {
-   .cartTop{
+@media (max-width: 767px) {
+   .hideCart{
        display: none;
    } 
 }
 .cartTop:hover{
-    box-shadow: 2px 2px 7px lightblue;
+    box-shadow: 2px 2px 7px rgb(236, 187, 187);
 }

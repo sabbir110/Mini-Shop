@@ -1,0 +1,12 @@
+.reviewTop{
+    box-shadow: 2px 2px 5px lightblue;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+    display: block;
+    padding: 20px;
+}
+
+.reviewTop:hover{
+    box-shadow: 2px 2px 7px rgb(236, 187, 187);
+}

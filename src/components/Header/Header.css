@@ -1,31 +1,63 @@
-.topNav{
-    margin-bottom: 95px !important;
+.topNav {
+  margin-bottom: 95px !important;
 }
-.navBar{
-    background-color: white;
-box-shadow: 0 0 5px 5px rgba(173, 216, 230, 0.452);
+.navbar{
+  background-color:rgb(66, 73, 97);
+  box-shadow: 0 0 5px 5px rgba(65, 66, 66, 0.452);
+  transition: .5s ease-in-out;
 }
-.navTitle img{
-    height: 60px !important;
+.navBarScroll {
+  background-color: white;
+  box-shadow: 0 0 2px 2px rgba(154, 166, 170, 0.452);
 }
-.navTitle span{
-    color: rgb(6, 137, 252);
-    font-size: 32px;
-    font-weight: 900;
-    font-family: 'Poppins', sans-serif;
+.navTitle img {
+  height: 60px !important;
+}
+.navTitle span {
+  color: rgb(6, 138, 161);
+  font-size: 32px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+}
+.scrollNavTitle span{
+color: white;
+font-size: 32px;
+font-weight: 900;
+font-family: "Poppins", sans-serif;
+}
+.scrollNavTitle img {
+  height: 60px !important;
 }
 .navLink{
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 30px;
-    color: rgb(99, 99, 99) !important;
-    text-align: center;
-    transition: .5s ease-in-out !important;
-    font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+  color: rgb(44, 123, 155) ;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  padding: 2px 5px 2px 5px;
 }
 .navLink:hover{
-    color: white !important;
-    background-color: lightblue;
-    border-radius: 10px;
-   text-align: center;
+  color: white;
+  background-color: lightblue;
+  border-radius: 10px;
+ text-align: center;
+}
+
+.scrollNavLink{
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  padding: 2px 5px 2px 5px;
+}
+.scrollNavLink:hover{
+  color: rgb(60, 228, 150) !important;
+  background-color: white;
+  border-radius: 10px;
+ text-align: center;
 }

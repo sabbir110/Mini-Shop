@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './Cart.css'
 
 const Cart = (props) => {
@@ -8,7 +7,7 @@ const Cart = (props) => {
     let total = 0;
     for (let i = 0; i < cart.length; i++) {
         const product = cart[i];
-        total = total + product.price;
+        total = total + product.price*product.quantity;
     }
     let shipping = 0;
     if (total > 35) {
@@ -23,15 +22,14 @@ const Cart = (props) => {
     const tax = (total / 10).toFixed(2)
     const grandTotal = Math.round(total + shipping + Number(tax))
     return (
-        <Container className="cartTop">
+        <Container className={props.hideCart}>
             <h4>Order Summary</h4>
-            <p> <strong>Order Summary :</strong> {cart.length}</p>
+            <p> <strong>Items Order: </strong> {cart.length}</p>
             <p> <strong>Shipping Const :</strong> {shipping}$</p>
             <p> <strong>Product price :</strong> {(total).toFixed(2)}$</p>
             <p> <strong>Tax and Vat :</strong> {tax}$</p>
             <p> <strong>Total price :</strong> {grandTotal}$</p>
-            <Link to="/review"><button className="mainButton">Review Order</button></Link>
-            
+            {props.children}
         </Container>
     );
 };

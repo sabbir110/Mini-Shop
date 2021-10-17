@@ -20,12 +20,17 @@ transform: scale(1.2);
 box-shadow: 2px 2px 5px lightblue;
 }
 .product:hover{
-    box-shadow: 2px 2px 7px gray;
+    box-shadow: 2px 2px 7px rgb(236, 187, 187);
 }
 
-.productName h3{
-    color: blue;
+.productName a{
+    color: rgb(45, 80, 59);
     font-weight: 400;
+    text-decoration: none;
+    transition: color .5s ease-in-out;
+}
+.productName a:hover{
+    color: rgb(255, 62, 62);
 }
 .mainButton{
     background:rgb(19, 219, 186);
